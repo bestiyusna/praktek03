@@ -14,5 +14,16 @@ public class bungaAksi {
         System.out.println(s.getWarna());
         System.out.print("harganya \t: ");
         System.out.println(s.getHarga());
+        
+        BungaMawar sm = new BungaMawar();
+        sm.setJenis("mawarkunig");
+        sm.setWarna("merah");
+        sm.setHarga ("9000");
+        sm.setJenisBunga("manis");
+        sm.cetakInfo();
+        System.out.println("Jenis Bunga \t :"+sm.getJenisBunga());
+        sm.throttle();
+        
+        
     }
 }
