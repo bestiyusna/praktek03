@@ -2,9 +2,9 @@ package praktek03;
 
 
 public class bunga {
-    String jenis;
-    String warna;
-    String harga;
+    private String jenis;
+    private String warna;
+    private String harga;
     
     void cetakInfo(){
         System.out.println("Merk \t: "+jenis+"\n"+
