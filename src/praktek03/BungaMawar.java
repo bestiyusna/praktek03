@@ -7,4 +7,14 @@ public class BungaMawar extends bunga{
     void throttle(){
         System.out.println("harumm...");
     }
+
+    public String getJenisBunga() {
+        return JenisBunga;
+    }
+
+    public void setJenisBunga(String JenisBunga) {
+        this.JenisBunga = JenisBunga;
+    }
+    
+    
 }
